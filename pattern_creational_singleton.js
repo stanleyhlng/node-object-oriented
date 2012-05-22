@@ -1,8 +1,10 @@
 var Singleton = (function() {
 
+    // private properties
     var instance;
 
-    function init() {
+    // private method
+    var init = function() {
         return {
             publicMethod: function() {
                 console.log( "public_method" );

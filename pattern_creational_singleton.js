@@ -23,5 +23,5 @@ var Singleton = (function() {
 }());
 
 var object = Singleton.getInstance();
-object.publicMethod()
-console.log( object.publicProperty );
+object.publicMethod()   // public_method
+console.log( object.publicProperty );   // public_property
